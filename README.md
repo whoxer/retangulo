@@ -33,10 +33,10 @@ A função área acessa os campos comprimento e largura da instância Rectangle.
 
 ## Adicionando Funcionalidade com Util com Traits Derivadas
 
-Rust inclui funcionalidades para imprimir informações de depuração, mas temos de inseri-la explicitamente para tornar essa funcionalidade disponível para nossa struct. Para isso, adicionamos a anotação ```#[derive(Debug)]```.
+Rust inclui funcionalidades para imprimir informações de depuração, mas temos de inseri-laexplicitamente para tornar essa funcionalidade disponível para nossa struct. Para isso, adicionamos a anotação ```#[derive(Debug)]```.
 
 ```rs
-	#[derive(Debug)]
+#[derive(Debug)]
 struct Rectangle {
     length: u32,
     width: u32,
